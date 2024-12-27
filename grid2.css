@@ -1,0 +1,47 @@
+.main {
+    
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+        "a a a a a"
+        "b d d d c"
+        "b g g f c"
+        "e e e e e";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 100px 100px;
+}
+
+.main * {
+    border: 1px dashed black;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+
+.header {
+    grid-area: a;
+}
+
+.left {
+    grid-area: b;
+}
+
+.right {
+    grid-area: c;
+}
+
+.content {
+    grid-area: d;
+}
+
+.footer {
+    grid-area: e;
+}
+
+.hisse1 {
+    grid-area: f;
+}
+
+.hisse2 {
+    grid-area: g;
+}
+

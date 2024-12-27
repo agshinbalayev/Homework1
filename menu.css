@@ -1,0 +1,29 @@
+.menu{
+    font-size: 13px;
+}
+.menu ul li {
+    display: inline-block;
+    background-color: lightgrey;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    position:relative;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}   
+
+.menu ul li.nested:hover > .submenu{
+    display: block;
+    
+}
+.submenu{
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    
+}
+
+

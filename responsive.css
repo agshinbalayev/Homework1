@@ -1,0 +1,101 @@
+div img{
+    width: 55%;
+    height: 200px;
+}
+*{
+    box-sizing: border-box;
+}
+.col-1{
+    float: left;
+    width: 10%;
+}
+.col-2{
+    float: left;
+    width: 20%;
+}
+.col-3{
+    float: left;
+    width: 30%;
+}
+.col-4{
+    float: left;
+    width: 40%;
+}
+.col-5{
+    float: left;
+    width: 50%;
+}
+.col-6{
+    float: left;
+    width: 60%;
+}
+.col-7{
+    float: left;
+    width: 70%;
+}
+.col-8{
+    float: left;
+    width: 80%;
+}
+.col-9{
+    float: left;
+    width: 90%;
+}
+.col-10{
+    float: left;
+    width: 100%;
+
+}
+div{
+    border: 1px solid black ;
+}
+
+.imgleft{
+    float: left;
+    border: 1px dashed lightgreen;
+    box-shadow: 2px 2px 1px;
+    padding: 10px ;
+}
+@media only screen and (max-width:600px) {
+    .col-sm-1{
+        float: left;
+        width: 10%;
+    }
+    .col-sm-2{
+        float: left;
+        width: 20%;
+    }
+    .col-sm-3{
+        float: left;
+        width: 30%;
+    }
+    .col-sm-4{
+        float: left;
+        width: 40%;
+    }
+    .col-sm-5{
+        float: left;
+        width: 50%;
+    }
+    .col-sm-6{
+        float: left;
+        width: 60%;
+    }
+    .col-sm-7{
+        float: left;
+        width: 70%;
+    }
+    .col-sm-8{
+        float: left;
+        width: 80%;
+    }
+    .col-sm-9{
+        float: left;
+        width: 90%;
+    }
+    .col-sm-10{
+        float: left;
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,79 @@
+div{
+    border: 1px solid black;
+}
+.basliq{
+    padding-left: 30px;
+}
+
+
+.basliq p span{
+    color: blue;
+}
+.left{
+    width: 20%;
+    float: left;
+}
+.center{
+    width: 59.67%;
+    float: left;
+}
+.right{
+    width: 20%;
+    float: right;
+}
+.sonluq{
+    height: 70px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.Elvar{
+    float: left;
+    margin-left: 25px;
+    color: brown;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.Elgiz{
+    float: right;
+    margin-right: 25px;
+    color: blue;
+    font-size: 20px;
+    font-style:italic;
+    font-weight: bold;
+}
+.melumat1 H3{
+    color: yellowgreen;
+    
+}
+.melumat1{
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color:plum ;
+  
+}
+.melumat2{
+    border-radius: 10px;
+    padding:10px;
+}
+.melumat3{
+    border-radius: 10px;
+    padding:10px;
+}
+.asama{
+    border-radius: 10px;
+    padding:10px;
+    font-weight: bold;
+    font-size: 17px;
+    font-style: italic;
+}
+.asama a{
+    color:red;
+    
+}
+.asama ul li a :hover{
+    color: black;
+}
